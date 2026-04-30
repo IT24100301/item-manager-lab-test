@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://item-manager-lab-test-production-3b4c.up.railway.app/api",
+  baseURL: "item-manager-lab-test-production-3b4c.up.railway.app/api",
 });
 
 export const getItems = () => API.get("/items");
